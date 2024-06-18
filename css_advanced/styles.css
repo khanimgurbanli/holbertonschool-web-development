@@ -1,0 +1,274 @@
+
+@font-face {
+    font-family: Source Sans Pro Extra Light;
+    src: url(./assets/fonts/SourceSansPro-ExtraLight.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro Light;
+    src: url(./assets/fonts/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro Bold;
+    src: url(./assets/fonts/SourceSansPro-Bold.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Source Sans Pro Extra Light';
+
+}
+
+header{
+        position: absolute;
+
+}
+
+.banner-section{
+    background-image: url('./assets/images/background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 250px;
+    color: aliceblue;
+}
+.header-container {
+    display: flex;
+    justify-content: space-around; 
+    padding: 30px;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto; 
+}
+
+.link-flex {
+    display: flex;
+    align-items: center;
+    margin-right: auto; 
+    margin-left: 30px; 
+}
+
+.logo {
+    width: 100px;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px; 
+}
+
+.header-links a {
+    color: white;
+    margin: 0 10px; 
+    margin-top: 20px;
+    font-family: Source Sans Pro Bold;
+}
+
+
+.link-flex {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.logo{
+    width: 180px;
+}
+
+.title-design{
+    font-family: Source Sans Pro Bold;
+    font-size: 140px;
+}
+
+
+.three-words span{
+    font-family: Source Sans Pro Bold;
+    margin: 20px;
+}
+
+.three-words{
+    text-align: center;
+}
+
+.purple-button{
+    margin-top: 40px;
+    border-radius: 60px;
+    background-color: #C271FF;
+    font-family: Source Sans Pro Light;
+    color: #FFF;
+    padding: 20px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.banner-footer{
+    text-align: center;
+   margin-top: 50px;;
+}
+
+.banner-main{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.banner-main div{
+    margin: 30px;
+}
+
+.quote-section{
+    background-color: #C271FF;
+}
+
+.quote{
+    display: flex;
+    justify-content: space-around;
+        font-size: 22px;
+        align-items: center;
+        padding: 120px;
+}
+.quote div{
+    padding-left: 40px;
+    width: 900px;
+    color: #fff;
+}
+
+.block-quote{
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro Light';
+}
+
+.video-container{
+    display: flex;
+    margin: 8px;
+    justify-content: space-evenly ;
+    line-height: 30px;
+}
+
+.popular-text{
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 80px;
+    font-size: 32px;
+}
+
+.purple{
+    font-family: Source Sans Pro Bold;
+    color: #C271FF;
+}
+
+.video-margin{
+    margin-bottom: 20px;
+   width: 100%;
+
+}
+
+
+.membership-container{
+    background-color: #071629;
+    text-align: center;
+    color: #FFF;
+}
+
+.membership-container h1{
+    text-align: center;
+    padding: 30px;
+}
+.smile-div{
+    display: flex;
+    justify-content: space-around;
+    line-height: 30px;
+}
+
+.smile-text h2{
+    padding: 20px;
+
+}
+
+.faq-container h1{
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.faq-content{
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq-content div{
+max-width: 400px;
+margin-top: 100px;
+line-height: 24px;
+margin-bottom: 80px;
+}
+
+.faq-h2{
+    margin-bottom: 50px;
+    font-family: Source Sans Pro Bold;
+}
+
+.footer-container{
+   background-color: #071629;
+   text-align: center;
+   color: #fff;
+}
+
+.social{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+
+.rating-title{
+    margin-top: 10px;
+    font-family: 'Source Sans Pro Extra Light';
+}
+
+.quote-p{
+    font-family: Source Sans Pro Bold;
+}
+.video-h2{
+    font-family: Source Sans Pro Bold;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.membership-container h1{
+    font-size: 30px;
+    padding: 80px;
+}
+
+.video-card{
+    margin: 18px;
+}
+
+.video-card p{
+    margin-left: 15px;
+}
+
+.rating-design{
+    font-family: Source Sans Pro Bold;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #C271FF;
+}
+
+.rating-design h3{
+  margin-right: 180px;
+}
+
+.rating-design img{
+    margin-left: 10px;
+}
+.video-section{
+   margin-bottom: 80px;
+}
